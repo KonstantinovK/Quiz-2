@@ -23,7 +23,7 @@ struct Question {
                          Answer(title: "Кукуруза", animal: .turtle)
                      ]),
 
-            Question(title: "Что вам нравится больше?",
+            Question(title: "Какое у вас хобби?",
                      resposeType: .multiple,
                      answers: [
                 Answer(title: "Плавать", animal: .dog),
@@ -32,7 +32,7 @@ struct Question {
                 Answer(title: "Есть", animal: .turtle)
             ]),
 
-            Question(title: "Любите ли вы поездки на авто?",
+            Question(title: "Любите ли вы быструю езду?",
                      resposeType: .ranged,
                      answers: [
                 Answer(title: "Ненавижу", animal: .turtle),
