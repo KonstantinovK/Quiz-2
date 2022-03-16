@@ -2,7 +2,7 @@
 //  QuestionViewController.swift
 //  PersonalQuizApp
 //
-//  Created by Aleksandr Kretov on 15.03.2022.
+//  Created by MacBook on 15.03.2022.
 //
 
 import UIKit
@@ -38,10 +38,10 @@ class QuestionViewController: UIViewController {
     private var answersChosen: [Answer] = []
     
     
-    //MARK: Life Cycle
+    //MARK: Interface update
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.setGradientBackground(.cyan, .white)
+        
         updateUI()
     }
     
